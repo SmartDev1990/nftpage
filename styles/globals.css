@@ -1,0 +1,81 @@
+html,
+body {
+  font-family: 'Chieezy Burger', sans-serif;
+  background: #10083B;
+  background-image: url("/images/bgbody.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: auto;
+  position: relative;
+
+}
+
+h2, h3 {
+    font-family: 'Chieezy Burger', sans-serif;
+    font-size: 14px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width: 1920px) and (min-width: 1441px) {
+    @content;
+}
+
+@media (max-width: 1440px) and (min-width: 1025px) {
+    @content;
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+    @content;
+}
+@media (max-width: 1024px) and (min-width: 320px) {
+    @content;
+}
+@media (max-width: 767px) and (min-width: 320px) {
+    @content;
+}
+@media (max-width: 767px) and (min-width: 479px) {
+    @content;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+    @content;
+}
+@media (max-width: 650px) and (min-width: 568px) {
+    @content;
+}
+@media (max-height: 550px) and (min-height: 0) {
+    @content;
+}
